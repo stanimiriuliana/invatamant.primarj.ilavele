@@ -121,6 +121,60 @@
   .fisa-card.arte { border-left-color: #c62828; }
   .fisa-card.arte .badge { background: #ffebee; color: #c62828; }
 
+  /* ── Proiect didactic ── */
+  .proiect-box {
+    background: #fff;
+    border-radius: 14px;
+    padding: 28px 26px;
+    box-shadow: 0 2px 14px rgba(0,0,0,.09);
+    margin-bottom: 16px;
+  }
+
+  .proiect-header {
+    display: flex; flex-wrap: wrap; align-items: flex-start;
+    justify-content: space-between; gap: 16px;
+    padding-bottom: 18px; border-bottom: 2px solid #e8f5e9;
+    margin-bottom: 20px;
+  }
+  .proiect-meta { display: flex; flex-direction: column; gap: 6px; }
+  .proiect-meta span { font-size: .87rem; color: #444; }
+
+  .proiect-obiective {
+    background: #f1f8e9; border-radius: 10px;
+    padding: 16px 18px; margin-bottom: 4px;
+  }
+  .proiect-obiective h4 { color: #33691e; margin-bottom: 10px; font-size: .95rem; }
+  .proiect-obiective ul { padding-left: 18px; }
+  .proiect-obiective ul li { font-size: .85rem; color: #444; margin-bottom: 5px; }
+
+  .etape-grid { display: flex; flex-direction: column; gap: 10px; margin-bottom: 22px; }
+
+  .etapa {
+    display: flex; align-items: flex-start; gap: 14px;
+    background: #fafafa; border-radius: 10px;
+    padding: 12px 16px; border: 1px solid #e0e0e0;
+  }
+  .etapa-nr {
+    min-width: 32px; height: 32px; border-radius: 50%;
+    background: #43a047; color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: .85rem; font-weight: 700; flex-shrink: 0;
+  }
+  .etapa-continut strong { font-size: .9rem; color: #1b5e20; }
+  .etapa-continut em { font-size: .78rem; color: #888; margin-left: 4px; }
+  .etapa-continut p { font-size: .83rem; color: #555; margin-top: 4px; line-height: 1.5; }
+
+  .proiect-strategii {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 14px; margin-top: 6px;
+  }
+  .proiect-strategii > div {
+    background: #e8f5e9; border-radius: 10px; padding: 14px 16px;
+  }
+  .proiect-strategii h4 { font-size: .88rem; color: #2e7d32; margin-bottom: 6px; }
+  .proiect-strategii p  { font-size: .8rem; color: #444; line-height: 1.5; }
+
   /* ── Notice banner ── */
   .notice {
     background: #fffde7; border-left: 4px solid #f9a825;
@@ -180,22 +234,139 @@
     <div class="card">
       <h3>📝 Proiecte de lecții</h3>
       <ul>
-        <li>Sunetul și litera A</li>
+        <li>Sunetul și litera C — CLR, Clasa Pregătitoare</li>
         <li>Numerele 0–10</li>
       </ul>
-      <a href="pdf/proiect-litera-a.pdf" class="btn" download>Descarcă proiect</a>
-    </div>
-
-    <div class="card">
-      <h3>💻 Resurse Educaționale Deschise (RED)</h3>
-      <ul>
-        <li>Fișe interactive PDF</li>
-        <li>Joc digital educativ</li>
-      </ul>
-      <a href="pdf/fisa-interactiva.pdf" class="btn" download>Descarcă fișa</a>
+      <a href="pdf/440409042-Plan-de-lectie-clasa-pregatitoare-doc.pdf" class="btn" download>Descarcă proiect</a>
     </div>
 
   </div><!-- /.card-grid -->
+
+
+  <!-- ═══════════════ PROIECT DIDACTIC DETALIAT ════════════════ -->
+  <div class="section-title">📋 Proiect didactic — Sunetul și litera C</div>
+
+  <div class="proiect-box">
+
+    <div class="proiect-header">
+      <div class="proiect-meta">
+        <span>👩‍🏫 <strong>Propunător:</strong> STANIMIR IULIANA SIMONA</span>
+        <span>🏫 <strong>Școala:</strong> Șc. Gimnazială „CPT. AV. CONSTANTIN M. CANTACUZINO", JILAVELE</span>
+        <span>📚 <strong>Disciplina:</strong> Comunicare în limba română</span>
+        <span>🏷️ <strong>Unitatea de învățare:</strong> Prietenia</span>
+        <span>⏱️ <strong>Durata:</strong> 35 min + 15 min activitate recreativă</span>
+        <span>🔤 <strong>Subiect:</strong> Sunetul și litera C</span>
+        <span>🔗 <strong>Discipline integrate:</strong> MEM, Arte vizuale și abilități practice</span>
+      </div>
+      <a href="pdf/440409042-Plan-de-lectie-clasa-pregatitoare-doc.pdf" class="btn" download>⬇️ Descarcă proiectul PDF</a>
+    </div>
+
+    <div class="proiect-obiective">
+      <h4>🎯 Obiective operaționale</h4>
+      <ul>
+        <li><strong>O1</strong> — Să formuleze cel puțin două răspunsuri corecte pe baza poveștii audiate</li>
+        <li><strong>O2</strong> — Să recunoască semnele grafice ale literelor C, c</li>
+        <li><strong>O3</strong> — Să identifice poziția literelor C, c în cuvinte (cel puțin 2 din 4 situații)</li>
+        <li><strong>O4</strong> — Să analizeze fonetic cuvinte care conțin sunetul C</li>
+        <li><strong>O5</strong> — Să realizeze corespondența cuvânt–imagine (cel puțin 4 din 8 situații)</li>
+        <li><strong>O6</strong> — Să explice fenomenul apariției curcubeului</li>
+        <li><strong>O7</strong> — Să realizeze litera C prin tehnica dactilopicturii</li>
+      </ul>
+    </div>
+
+    <h4 style="color:#1b5e20; margin: 20px 0 12px;">📌 Desfășurarea activității</h4>
+    <div class="etape-grid">
+
+      <div class="etapa">
+        <div class="etapa-nr">1</div>
+        <div class="etapa-continut">
+          <strong>Moment organizatoric</strong> <em>(2 min)</em>
+          <p>Pregătirea materialelor și stabilirea ordinii în clasă.</p>
+        </div>
+      </div>
+
+      <div class="etapa">
+        <div class="etapa-nr">2</div>
+        <div class="etapa-continut">
+          <strong>Verificarea cunoștințelor anterioare</strong> <em>(2 min)</em>
+          <p>Elevii își amintesc literele studiate (A, M, U, N, I, E, R) și oferă exemple de cuvinte care le conțin în poziție inițială, mediană sau finală.</p>
+        </div>
+      </div>
+
+      <div class="etapa">
+        <div class="etapa-nr">3</div>
+        <div class="etapa-continut">
+          <strong>Captarea atenției</strong> <em>(5 min)</em>
+          <p>Lectura <em>Poveștii literei C</em> (personaje: Corina, bunica, cățelul Carol, Ploaia). Conversație prin metoda <em>Exploziei stelare</em>: Cine? Ce? Unde? Când? De ce?</p>
+        </div>
+      </div>
+
+      <div class="etapa">
+        <div class="etapa-nr">4</div>
+        <div class="etapa-continut">
+          <strong>Anunțarea temei și a obiectivelor</strong> <em>(2 min)</em>
+          <p>Identificarea sunetului inițial al cuvântului <em>curcubeu</em> → sunetul C. Prezentarea titlului și a obiectivelor lecției pe înțelesul elevilor.</p>
+        </div>
+      </div>
+
+      <div class="etapa">
+        <div class="etapa-nr">5</div>
+        <div class="etapa-continut">
+          <strong>Dirijarea învățării</strong> <em>(15 min)</em>
+          <p>Discuție despre formarea curcubeului (MEM). Prezentarea planșei cu literele C, c și analiza semnelor grafice. Trasarea literei în aer, pe bancă, în podul palmei. <strong>Joc didactic „Bate din palme!"</strong> — elevii identifică cuvintele cu sunetul C dintr-o listă rostită de învățătoare. Analiza propoziției <em>Corina pictează un curcubeu</em>: silabe, poziția sunetului C.</p>
+        </div>
+      </div>
+
+      <div class="etapa">
+        <div class="etapa-nr">6</div>
+        <div class="etapa-continut">
+          <strong>Obținerea performanței</strong> <em>(5 min)</em>
+          <p>Distribuirea și rezolvarea fișelor de lucru individual, sub îndrumarea învățătoarei.</p>
+        </div>
+      </div>
+
+      <div class="etapa">
+        <div class="etapa-nr">7</div>
+        <div class="etapa-continut">
+          <strong>Asigurarea retenției și a transferului</strong> <em>(2 min)</em>
+          <p><strong>Jocul „Săculețul cu surprize"</strong> — elevii extrag jetoane cu imagini și le clasifică după poziția sunetului C: inițial, median sau final.</p>
+        </div>
+      </div>
+
+      <div class="etapa">
+        <div class="etapa-nr">8</div>
+        <div class="etapa-continut">
+          <strong>Activitate recreativă — Dactilopictură</strong> <em>(15 min)</em>
+          <p>Elevii pictează literele C, c în culorile curcubeului folosind tehnica dactilopicturii (pictură cu degetul).</p>
+        </div>
+      </div>
+
+      <div class="etapa">
+        <div class="etapa-nr">9</div>
+        <div class="etapa-continut">
+          <strong>Încheierea lecției</strong> <em>(2 min)</em>
+          <p>Aprecieri verbale și stimulente — bomboane multicolore sugerând culorile curcubeului.</p>
+        </div>
+      </div>
+
+    </div><!-- /.etape-grid -->
+
+    <div class="proiect-strategii">
+      <div>
+        <h4>🛠️ Metode didactice</h4>
+        <p>Lectura explicativă, metoda fonetico-analitico-sintetică, conversația euristică, explozia stelară, exercițiul, munca independentă, problematizarea</p>
+      </div>
+      <div>
+        <h4>🖥️ Mijloace didactice</h4>
+        <p>PPT, planșe, fișe de lucru, acuarele, săculeț cu jetoane</p>
+      </div>
+      <div>
+        <h4>👥 Forme de organizare</h4>
+        <p>Frontal și individual</p>
+      </div>
+    </div>
+
+  </div><!-- /.proiect-box -->
 
 
   <!-- ═══════════════ FIȘE DE LUCRU ════════════════ -->
